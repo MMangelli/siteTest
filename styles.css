@@ -1,13 +1,19 @@
-a {
-    /* Specify non-transparent defaults to certain properties,
-       allowing them to be styled with the :visited state */
-    background-color: white;
-    border: 1px solid rgb(14, 46, 150);
+/* unvisited link */
+a:link {
+    color: green;
   }
-
   
+  /* visited link */
   a:visited {
-    background-color: yellow;
-    border-color: hotpink;
-    color: hotpink;
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
   }
