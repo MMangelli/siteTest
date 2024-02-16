@@ -2,8 +2,9 @@ a {
     /* Specify non-transparent defaults to certain properties,
        allowing them to be styled with the :visited state */
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid rgb(14, 46, 150);
   }
+
   
   a:visited {
     background-color: yellow;
